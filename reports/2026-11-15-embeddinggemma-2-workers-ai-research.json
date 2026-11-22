@@ -1,0 +1,76 @@
+{
+  "status": "ok",
+  "source": {
+    "type": "news",
+    "title": "EmbeddingGemma 2 now available on Workers AI",
+    "url": "https://developers.cloudflare.com/changelog/post/2026-11-12-embeddinggemma-2-workers-ai/",
+    "author": null,
+    "published_at": "2026-11-12"
+  },
+  "primary_sources": [
+    {
+      "url": "https://developers.cloudflare.com/changelog/post/2026-11-12-embeddinggemma-2-workers-ai/",
+      "title": "EmbeddingGemma 2 now available on Workers AI"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F1",
+      "claim": "EmbeddingGemma 2 — открытая мультимодальная модель встраивания от Google DeepMind",
+      "evidence_url": "https://developers.cloudflare.com/changelog/post/2026-11-12-embeddinggemma-2-workers-ai/",
+      "evidence_quote": "открытая мультимодальная модель встраивания от Google DeepMind",
+      "status": "confirmed"
+    },
+    {
+      "id": "F2",
+      "claim": "Модель отображает текст, изображения, видео и аудио в одном 768-мерном векторном пространстве",
+      "evidence_url": "https://developers.cloudflare.com/changelog/post/2026-11-12-embeddinggemma-2-workers-ai/",
+      "evidence_quote": "отображает текст, изображения, видео и аудио в одном 768-мерном векторном пространстве",
+      "status": "confirmed"
+    },
+    {
+      "id": "F3",
+      "claim": "Поддерживает свыше 100 языков",
+      "evidence_url": "https://developers.cloudflare.com/changelog/post/2026-11-12-embeddinggemma-2-workers-ai/",
+      "evidence_quote": "Поддержка свыше 100 языков",
+      "status": "confirmed"
+    },
+    {
+      "id": "F4",
+      "claim": "Контекстное окно на 8192 токена",
+      "evidence_url": "https://developers.cloudflare.com/changelog/post/2026-11-12-embeddinggemma-2-workers-ai/",
+      "evidence_quote": "Контекстное окно на 8192 токена",
+      "status": "confirmed"
+    },
+    {
+      "id": "F5",
+      "claim": "Поддерживает гибкие размеры векторов: 128, 256 или 512 элементов",
+      "evidence_url": "https://developers.cloudflare.com/changelog/post/2026-11-12-embeddinggemma-2-workers-ai/",
+      "evidence_quote": "Гибкие размеры векторов (128, 256 или 512 элементов)",
+      "status": "confirmed"
+    },
+    {
+      "id": "F6",
+      "claim": "Идентификатор модели в Workers AI: @cf/google/embeddinggemma-2",
+      "evidence_url": "https://developers.cloudflare.com/changelog/post/2026-11-12-embeddinggemma-2-workers-ai/",
+      "evidence_quote": "@cf/google/embeddinggemma-2",
+      "status": "confirmed"
+    },
+    {
+      "id": "F7",
+      "claim": "Цена модели: 0,0017 доллара за миллион входных токенов",
+      "evidence_url": "https://developers.cloudflare.com/changelog/post/2026-11-12-embeddinggemma-2-workers-ai/",
+      "evidence_quote": "0,0017 доллара за миллион входных токенов",
+      "status": "confirmed"
+    },
+    {
+      "id": "F8",
+      "claim": "Модель использует формат messages с поддержкой текста, изображений через base64 data URIs и текстовых префиксов задач",
+      "evidence_url": "https://developers.cloudflare.com/changelog/post/2026-11-12-embeddinggemma-2-workers-ai/",
+      "evidence_quote": "Использует формат messages с поддержкой текста, изображений через base64 и префиксов задач",
+      "status": "confirmed"
+    }
+  ],
+  "unknowns": [],
+  "notes": []
+}

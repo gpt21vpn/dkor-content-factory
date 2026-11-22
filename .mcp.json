@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "dkor-image-generator": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["scripts/run_mcp.py"],
+      "env": {"PYTHONUTF8": "1"}
+    }
+  }
+}

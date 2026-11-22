@@ -1,0 +1,41 @@
+{
+  "schema_version": "dkor-social/v1",
+  "status": "draft",
+  "source": {
+    "type": "news",
+    "title": "EmbeddingGemma 2 now available on Workers AI",
+    "url": "https://developers.cloudflare.com/changelog/post/2026-11-12-embeddinggemma-2-workers-ai/",
+    "author": null,
+    "published_at": "2026-11-12"
+  },
+  "image_prompt": "A dark modern scene of glowing points of different shapes (a text card, a photo frame, a sound wave, a video frame) drifting into one shared luminous 3D coordinate space, dark background with subtle teal and light blue accent lighting, 16:9, cinematic, no text, no logos, no real persons, no yellow.",
+  "image_path": null,
+  "platforms": {
+    "telegram": {
+      "content": "В Workers AI появилась EmbeddingGemma 2 — открытая мультимодальная модель встраивания от Google DeepMind. Это новость из журнала изменений Cloudflare от 12 ноября 2026, сам я модель пока не тестировал.\n\nЧто это даёт: текст, изображения, видео и аудио отображаются в одно 768-мерное векторное пространство. Благодаря этому материалы разного типа можно сравнивать между собой.\n\nЧто указано на странице: свыше 100 языков, контекстное окно 8192 токена, размеры векторов 128, 256 или 512 элементов, идентификатор @cf/google/embeddinggemma-2, цена 0,0017 доллара за миллион входных токенов.\n\nОграничение: это описание от самой Cloudflare, а не мой тест. Как модель поведёт себя на русском языке и на ваших данных, нужно проверять отдельно. 🔍\n\nА вы пробовали поиск сразу по тексту и картинкам для своего бизнеса?"
+    },
+    "x": {
+      "content": "Cloudflare added EmbeddingGemma 2 to Workers AI: open multimodal embeddings from Google DeepMind. One 768-dim space for text, images, video and audio. 100+ languages, 8192-token context, $0.0017 per 1M input tokens. https://developers.cloudflare.com/changelog/post/2026-11-12-embeddinggemma-2-workers-ai/"
+    },
+    "youtube_shorts": {
+      "title": "EmbeddingGemma 2 в Workers AI: поиск по тексту, фото и аудио",
+      "script": "В Cloudflare Workers AI появилась новая модель встраивания EmbeddingGemma 2. Это открытая мультимодальная модель от Google DeepMind.\n\nЧто такое встраивание? Это числовой вектор, по которому программа сравнивает данные между собой.\n\nГлавное: текст, изображения, видео и аудио попадают в одно семьсот шестьдесят восьмимерное пространство.\n\nЕщё на странице указано: больше ста языков, контекст в восемь тысяч сто девяносто два токена, размеры вектора сто двадцать восемь, двести пятьдесят шесть или пятьсот двенадцать. Цена: ноль целых семнадцать десятитысячных доллара за миллион входных токенов.\n\nОграничение: это описание от самой Cloudflare, я модель не тестировал. Качество на русском языке и на ваших данных нужно проверять отдельно.\n\nИсточник — журнал изменений Cloudflare от двенадцатого ноября две тысячи двадцать шестого года. Ролик подготовлен с помощью ИИ-инструментов.",
+      "description": "Короткий разбор новости Cloudflare от 12 ноября 2026: в Workers AI появилась EmbeddingGemma 2 — открытая мультимодальная модель встраивания от Google DeepMind. Что указано на странице: одно 768-мерное пространство для текста, изображений, видео и аудио, свыше 100 языков, контекст 8192 токена, цена 0,0017 доллара за миллион входных токенов. Это пересказ официального описания, а не мой тест. Часть материалов создана с помощью ИИ-инструментов.",
+      "keywords": [
+        "EmbeddingGemma 2",
+        "Workers AI",
+        "Cloudflare",
+        "Google DeepMind",
+        "модель встраивания",
+        "мультимодальный поиск",
+        "DKORWORLD2"
+      ]
+    },
+    "dkor_space": {
+      "title": "EmbeddingGemma 2 в Cloudflare Workers AI: что известно",
+      "slug": "embeddinggemma-2-workers-ai",
+      "body_md": "# EmbeddingGemma 2 в Cloudflare Workers AI: что известно\n\n> **Это пересказ официальной новости, а не мой тест.** Все сведения взяты из [журнала изменений Cloudflare](https://developers.cloudflare.com/changelog/post/2026-11-12-embeddinggemma-2-workers-ai/) от 12 ноября 2026. Перед публикацией их стоит сверить с оригиналом.\n\n## Что произошло\n\nВ Workers AI стала доступна EmbeddingGemma 2 — открытая мультимодальная модель встраивания от Google DeepMind.\n\n## Что указано на странице\n\n- Текст, изображения, видео и аудио отображаются в одном 768-мерном векторном пространстве.\n- Поддерживается свыше 100 языков.\n- Контекстное окно — 8192 токена.\n- Размеры векторов — 128, 256 или 512 элементов.\n- Идентификатор модели в Workers AI: `@cf/google/embeddinggemma-2`.\n- Цена: 0,0017 доллара за миллион входных токенов.\n\n## Зачем это бизнесу\n\nМодели встраивания переводят данные в векторы, которые можно сравнивать между собой. Если в одном пространстве лежат и тексты, и изображения, и видео, и аудио, материалы разного типа можно сравнивать друг с другом.\n\n## Ограничения\n\n- Это описание от самой Cloudflare. Независимых замеров качества здесь нет.\n- Как модель работает на русском языке и на ваших данных, нужно проверять отдельно.\n- Цену и условия стоит сверить на странице Cloudflare перед расчётами.\n"
+    }
+  },
+  "published": {}
+}
